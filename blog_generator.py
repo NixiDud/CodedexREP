@@ -1,4 +1,6 @@
-# Creating this project, I used OpenAI help and Codedex guide to create this project in the .env file. I added the API code through this file is API code, which I will not share in this file. In this file is -> API_KEY = api code line
+# Creating this project, I used OpenAI’s assistance and a Codedex guide. I stored my API key securely in a .env file. The key is added there as
+# API_KEY = your_api_key_here. For security reasons, I’m not sharing the actual key in this repository.
+    
 from openai import OpenAI          # Import the OpenAI client
 from dotenv import dotenv_values    # Import dotenv to read our API key from .env 
 
@@ -29,3 +31,4 @@ while True:
         print("Goodbye!")
 
         break
+
