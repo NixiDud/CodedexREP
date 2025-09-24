@@ -1,5 +1,6 @@
+# Creating this project, I used OpenAI help and Codedex guide to create this project in the .env file. I added the API code through this file is API code, which I will not share in this file. In this file is -> API_KEY = api code line
 from openai import OpenAI          # Import the OpenAI client
-from dotenv import dotenv_values    # Import dotenv to read our API key from .env
+from dotenv import dotenv_values    # Import dotenv to read our API key from .env 
 
 # ---------------------------- Load API key --------------------
 config = dotenv_values(".env")                     # Read key/value pairs from .env
@@ -26,4 +27,5 @@ while True:
         print("\n---------------------------\n")
     else:
         print("Goodbye!")
+
         break
